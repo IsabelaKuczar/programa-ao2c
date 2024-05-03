@@ -2,3 +2,36 @@ body {
 background-color: (black);
 color:white
 }
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
+    .cabeçalho {
+        background-color: #000000;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 24px 0;
+    }
+    
+    .cabeçalho-título {
+        color: #ffffff;
+        font-size: 54px;
+    }
+    
+    .cabeçalho-lista {
+        color: white;
+        font-size: 22px;
+    }
+    
+    
+    .cabeçalho-lista-item1 {
+        display: inline-block;
+        margin: 0 16px;
+    }
+    
+    .cabeçalho-lista-item2 {
+        display: inline-block;
+        margin: 0 16px;
+    }
